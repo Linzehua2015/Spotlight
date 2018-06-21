@@ -57,6 +57,5 @@ continueUserActivity:(NSUserActivity *)userActivity
 // 默认是一个月，如果有需求，可以设置一下。
 @property (copy, null_resettable) NSDate * expirationDate;
 ```
-- 如果你的应用支持iOS9以下的系统，在使用以上接口的时候，注意添加iOS系统版本号的判断，避免iOS9以下的设备闪退。
-#Demo
+- 如果你的应用支持iOS9以下的系统，在使用以上接口的时候，注意添加iOS系统版本号的判断，避免iOS9以下的设备闪退。 
 
